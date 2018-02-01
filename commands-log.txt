@@ -1,2 +1,7 @@
 $ npm install -s bootstrap jquery tether
 commit..
+
+$ ng g component views/navbar
+$ ng g component views/question
+$ ng g component views/question/questionList
+commit...
