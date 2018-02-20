@@ -6,8 +6,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./question-list.component.css']
 })
 export class QuestionListComponent implements OnInit {
-
-  constructor() { }
+  questions:Object[];
+  
+  constructor() {
+    this.questions = [
+      {
+        text:'What is your name?',
+        answer: 'My name is Brad'
+      },
+      {
+        text:'What is your favorite color?',
+        answer: 'My favorite color is red'
+      },
+      {
+        text:'What is your favorite language?',
+        answer: 'My favorite language is JavaScript'
+      }
+    ];
+   }
 
   ngOnInit() {
   }
