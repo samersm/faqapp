@@ -7,5 +7,8 @@ $ ng g component views/question/questionList
 commit...
 
 $ ng g service services/data --module=app
-$ 
+$
+commit...
+
+$ ng generate component views/question/AddQuestion
 commit...
