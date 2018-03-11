@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './views/navbar/navbar.component';
 import { QuestionComponent } from './views/question/question.component';
 import { QuestionListComponent } from './views/question/question-list/question-list.component';
+import { DataService } from './services/data.service';
 
 
 @NgModule({
@@ -18,7 +19,7 @@ import { QuestionListComponent } from './views/question/question-list/question-l
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

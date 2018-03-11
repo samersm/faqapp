@@ -5,3 +5,7 @@ $ ng g component views/navbar
 $ ng g component views/question
 $ ng g component views/question/questionList
 commit...
+
+$ ng g service services/data --module=app
+$ 
+commit...
